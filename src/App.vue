@@ -59,6 +59,7 @@ const par = computed(() => {
       <p v-if="!par">O número é ìmpar</p>
       <p v-else>O número é par</p>
     </div>
+
   </div>
 </template>
 
@@ -66,7 +67,8 @@ const par = computed(() => {
 .contador {
   margin-right: 30px;
 }
-.result{
+
+.result {
   color: black;
 }
 </style>
